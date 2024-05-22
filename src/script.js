@@ -1,3 +1,4 @@
+import './style.css';      
 import { filterKernel } from './filter.js';
 
 

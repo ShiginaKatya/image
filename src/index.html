@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="dist/bundle.js"></script>
+    <script src="bundle.js"></script>
     <title>Image processing</title>
 </head>
 <body>
@@ -12,13 +11,13 @@
         <ul>
             <li>
                 <button class="pip int_button" id="pip">
-                    <img src="images/mdi_pipette.svg" alt="">
+                    <img src="<%= require('./images/mdi_pipette.svg') %>" alt="">
                     <p class="tooltip-pip">Инструмент Пипетка - выберите два цвета и оцените их контрастность</p>
                 </button>
             </li>
             <li>
                 <button class="hand int_button" id="hand">
-                    <img src="images/vaadin_hand.svg" alt="">
+                    <img src="<%= require('./images/vaadin_hand.svg') %>" alt="">
                     <p class="tooltip-hand">Инструмент Рука - передвигайте изображение с помощью стрелок на клавиатуре </p>
                 </button>
             </li>
