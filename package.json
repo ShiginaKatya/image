@@ -2,7 +2,7 @@
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My Webpack project",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve"
